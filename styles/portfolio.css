@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    
+    font-family: 'Open Sans', sans-serif;
+    
+}
+/* nav section css */
+header{
+    background-color:#FFF8F3 ;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    background-size: 600px, 73px;
+    
+}
+nav .logo{
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: -15px;
+    
+}
+nav span{
+    color: #FD6E0A;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+   
+}
+nav .menu{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    
+}
+
+
+
+nav .menu li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+ 
+    
+}
+.primary-btn{
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    
+    
+}
+/* hardy section css */
+.submit .primary-btn{
+    /* padding: 0px; */
+    /* margin:  10px 0px; */
+    
+    text-align: center;
+}
+
+
+   
+ .primary-btn-2{
+    color:  #FD6E0A;
+    background-color: #fd6f0a00;
+    border: 1px solid;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border-color:  #FD6E0A;
+    margin-left: 15px;
+   
+
+ } 
+
+ 
+
+ 
+
+ 
+
+header .hardy .content{
+    width: 585px;
+    height: 200px;
+    margin-left: 221px;
+}
+h3,h1,p{
+    padding-bottom: 10px;
+}
+
+
+ 
+
+.hardy{
+    display: flex;
+    align-items: center;
+}
+.hardy img{
+    
+    height: 460px;
+
+}
+.content p{
+    line-height: 23px;
+    margin-bottom: 5px;
+  
+}
+/* bx section css */
+.dev{
+    display: flex;
+   justify-content:center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   gap: 18px;
+}
+.box p{
+    font-size: 12px;
+}
+/* .box{
+    box-shadow: 10px 19px 60px rgba(0, 0, 0, 0.06);
+    /* border-radius: 5px;
+    height: 250px;
+    width: 350px; */
+.dev .box{
+    
+ width: 150px;
+ height: 190px;   
+background: #FFFFFF;
+box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 6%);
+border-radius: 5px;
+padding: 15px;
+transition: transform .3s;
+
+}
+.box h4{
+    padding: 10px 3px;
+}
+.box:hover{
+    transform: scale(1.1);
+
+}
+main .what{
+    text-align: center;
+    margin: 70px 0;
+    font-weight: 900;
+    font-size: 25px;
+    text-shadow: 1px -1px 4px #a7a6a6
+
+}
+/* part 3 css */
+main .third{
+    display: flex;
+   align-items: stretch;
+  
+    
+    gap: 50px;
+    
+    text-align: left;
+   
+    
+
+    
+}
+.experience{
+    width: 400px;
+  
+}
+.contain{
+    width: 780px;
+    margin: 0 auto;
+}
+.third p{
+    font-size: 11px;
+    padding: 3px;
+    color: rgb(123, 123, 123);
+}
+.third h4{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.third h6{
+    font-weight: 600;
+    color: #797979;
+    padding: 6px 0;
+}
+.part{
+    height: 100px;
+}
+hr{
+    margin-bottom: 6px;
+}
+/* main .primary-btn{
+   margin: 20px 45%;display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+main .button{
+  margin: 60px 0;
+    text-align: center;
+   
+}
+/* footer css
+ */
+ footer .foot{
+    display: flex;
+    padding-top: 100px;
+   
+    gap: 90px;
+ }
+ .two .primary-btn{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 80px;
+
+ }
+ .foot{
+    width: 900px;
+    
+    margin: 0 auto;
+ }
+ footer img{
+    padding-right: 25px;
+    
+ }
+ footer{
+    background-color: #FFF8F3;
+    
+ }
+.foot p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: rgb(84, 84, 84);
+}
+
+form input{
+    width: 240px;
+    height: 30px;
+    display: block;
+    margin-top: 15px;
+    border:0;
+    
+}
+textarea{
+    margin-top: 15px;
+    border: 0;
+}
